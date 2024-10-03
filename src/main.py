@@ -3,7 +3,7 @@ from video_stream import start_video_stream
 
 if __name__ == "__main__":
     # video_path = "inputs/input-1.mp4"  # Path to the input video file
-    video_path = 0  # Path to the input video file
+    video_path = 0  # Using the camera
     
     output_path = "outputs/processed_output.mp4"  # Path to save the output video
 

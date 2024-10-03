@@ -3,10 +3,10 @@ import time
 from filters import apply_sepia, apply_grayscale, apply_mirror, apply_resize
 
 def apply_filters(frame):
-    # frame = apply_sepia(frame)       # Use of sepia
-    # frame = apply_grayscale(frame)   # Black and white filter
-    # frame = apply_mirror(frame)      # Mirror filter
-    # frame = apply_resize(frame, 0.5) # Resize (scale 50%)
+    frame = apply_sepia(frame)       # Use of sepia
+    frame = apply_grayscale(frame)   # Black and white filter
+    frame = apply_mirror(frame)      # Mirror filter
+    frame = apply_resize(frame, 0.5) # Resize (scale 50%)
     return frame
 
 def start_video_stream(video_path, output_path, duration=10):
